@@ -3,11 +3,12 @@
   "version": "0.2.0",
   "description": "Accept-Language extra info API",
   "directories": {
-    "example": "example"
+    "example": "example",
+    "test": "test"
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -t 30000"
   },
   "keywords": [
     "iana",
@@ -31,5 +32,9 @@
   "os": [
     "darwin",
     "linux"
-  ]
+  ],
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "should": "^13.1.3"
+  }
 }

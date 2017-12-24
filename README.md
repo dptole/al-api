@@ -13,7 +13,7 @@ Definitions of the [Accept-Language][url-moz-accept-language] can be found at th
 Examples
 ========
 
-```
+```javascript
 const al_api = require('@dptole/al-api')
 
 al_api.getLanguageDescriptionBySubtag('en') // ['English']

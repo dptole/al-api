@@ -1,5 +1,6 @@
 
 const fs = require('fs')
+    , path = require('path')
     , lsr = JSON.parse(fs.readFileSync(path.join(__dirname, '/data/iana-language-subtag-registry.json')).toString())
     , lsr_keys = Object.keys(lsr)
 

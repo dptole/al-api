@@ -1,6 +1,6 @@
 {
   "name": "@dptole/al-api",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Accept-Language extra info API",
   "directories": {
     "example": "example"

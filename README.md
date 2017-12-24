@@ -1,6 +1,7 @@
 Accept-Language extra info API
 ==============================
 
+  [![Build status][circle-ci-badge]][circle-ci]
   [![Issue status][gh-issues-badge]][gh-issues]
   [![NPM Version][npm-module-version-badge]][npm-module]
   [![Downloads][npm-downloads-total-badge]][npm-module]
@@ -53,6 +54,8 @@ License
 
 [MIT][LICENSE]
 
+[circle-ci]: https://circleci.com/gh/dptole/al-api
+[circle-ci-badge]: https://img.shields.io/circleci/project/dptole/al-api.svg
 [gh-issues-badge]: https://img.shields.io/github/issues-raw/dptole/al-api.svg
 [gh-issues]: https://github.com/dptole/al-api/issues
 [npm-module-version-badge]: https://img.shields.io/npm/v/@dptole/al-api.svg

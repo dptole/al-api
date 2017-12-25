@@ -1,6 +1,6 @@
 {
   "name": "@dptole/al-api",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Accept-Language extra info API",
   "directories": {
     "example": "example",
@@ -32,6 +32,12 @@
   "os": [
     "darwin",
     "linux"
+  ],
+  "files": [
+    "data/",
+    "LICENSE",
+    "README.md",
+    "index.js"
   ],
   "devDependencies": {
     "mocha": "^4.0.1",

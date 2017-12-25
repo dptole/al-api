@@ -9,7 +9,7 @@ Accept-Language extra info API
 
 API for reading extra information from the HTTP header [Accept-Language][url-moz-accept-language] based on the [Language subtag registry][url-language-subtag-registry] file.
 
-Definitions of the [Accept-Language][url-moz-accept-language] can be found at the [Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content][url-rfc7231-3.1.3.1] and refers to the [Tags for Identifying Languages][url-rfc5646-3.1]
+Details for the [Accept-Language][url-moz-accept-language] HTTP header can be found at the [Tags for Identifying Languages][url-rfc5646-3.1], which refers to the [Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content][url-rfc7231-3.1.3.1].
 
 Examples
 ========

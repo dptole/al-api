@@ -56,6 +56,9 @@ const al_api = new Proxy(target, {
     const subcat = RegExp.$1.substr(cat.length)
         , key = RegExp.$2
 
+    if(subcat.toLowerCase() === key.toLowerCase())
+      return void 0
+
     const subcat_object = lsr[cat.toLowerCase()].reduce((acc, lsr_fields) => {
       if(!(lsr_fields && lsr_fields[subcat] && lsr_fields[key]))
         return acc
